@@ -1,4 +1,13 @@
 body {
     background-color: #F3F6FB;
-    font-size: large;
+    font-size: 25px;
+}
+.container img{
+    height: 350px;
+    width: 500px;
+    float: left;
+}
+.container p{
+    width: 60%;
+    float: right;
 }
