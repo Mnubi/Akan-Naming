@@ -1,3 +1,10 @@
 body{
     background-color: #F3F6FB;
 }
+.fill> .data{
+    background-color: grey;
+    padding: 50px;
+    margin: 100px;
+    height: 400px;
+    width: 200px;
+}
