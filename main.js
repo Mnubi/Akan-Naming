@@ -10,4 +10,9 @@ var submit = function(){
     var day = parseInt(document.getElementById("day").value);
     var name =(document.getElementById("name").value);
 
+    //creating a date objects to call the day stated
+    var date0fbirth = new Date(year + "/" + month + "/" + day);
+    var results = date0fbirth.getDay();
+
+
 };
