@@ -17,4 +17,7 @@ var submit = function(){
     // this will choose the option available from the radio button
     var male = document.getElementById("male")
     var female = document.getElementById("female")
+
+    //output will print outcome variables to html
+    var output = document.getElementById("output");
 };
