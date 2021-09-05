@@ -8,8 +8,8 @@ ul{
     justify-content:center;
     list-style-type: none;
     margin: 0px;
-    padding: 8em;
-    /* overflow: hidden; */
+    padding: 6em;
+    overflow: hidden;
 }
 .container img{
     height: 370px;
