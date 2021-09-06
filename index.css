@@ -1,5 +1,5 @@
 body {
-    background-color: #c9cbce;
+    background-color: #919923;
     font-size: 25px;
     text-align: center;
 }
@@ -13,14 +13,20 @@ ul{
     justify-content: space-evenly;
     list-style-type: none;
     margin: 0px;
-    padding: 6em;
+    padding: 4em;
     overflow: hidden;
-    /* background-image: url("/Images/Africa.jpg"); */
+
+}
+ul li{
+    margin-top: 130px;
+}
+.Navigation> ul li a{
+    text-decoration: none;
+    color: rgb(196, 146, 10);
+    font-size: 35px;
+    font-weight: 900;
 }
 
-ul li:hover{
-    color: #F3F6FB;
-}
 .container img{
     height: 370px;
     width: 500px;
@@ -32,11 +38,11 @@ ul li:hover{
     float: right;
 }
 footer{
-    /* position: absolute; */
     font-size: 20px;
     height: 30px;
     background-color: gray;
     color: black;
+    margin-top: 20em;
     
 }
 .foot > footer{
