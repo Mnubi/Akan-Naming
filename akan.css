@@ -1,8 +1,20 @@
 body{
-    background-color: #F3F6FB;
+    background-color: #c9cbce;
 }
 .Navigation {
     color: #F3F6FB;
+    font-size: 25px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0px;
+    padding: 6em;
+    overflow: hidden;
+    /* background-image: url("/Images/Africa.jpg"); */
 }
 ul{
     display: flex;
@@ -12,9 +24,9 @@ ul{
     margin: 0px;
     padding: 6em;
     overflow: hidden;
-    background-image: url("/Images/Africa.jpg");
+    /* background-image: url("/Images/Africa.jpg"); */
 }
-.fill> .data{
+.fill {
     background-color: grey;
     padding: 50px;
     margin: 100px;
@@ -23,11 +35,8 @@ ul{
     border-radius: 5px;
 }
 label {
-    /* display: flex;
-    flex-direction: row; */
     justify-content: left;
     text-align: right;
-    width: ;
     line-height: 10px;
     margin-bottom: 10px;
 }
