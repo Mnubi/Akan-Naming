@@ -1,5 +1,5 @@
 body {
-    background-color: #F3F6FB;
+    background-color: #c9cbce;
     font-size: 25px;
 }
 .Navigation {
@@ -13,7 +13,7 @@ ul{
     margin: 0px;
     padding: 6em;
     overflow: hidden;
-    background-image: url("/Images/Africa.jpg");
+    /* background-image: url("/Images/Africa.jpg"); */
 }
 
 ul li:hover{

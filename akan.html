@@ -15,40 +15,40 @@
             </ul>
         </div>
         <div class="fill">
-            <div class="data">
-                <form>
-                    <label for="fname">Full Name:</label><br>
-                    <input type="text" id="name" placeholder="Enter Full Name"><br><br><br>
-                    
-                    <label for="Day">Day:</label><br>
-                    <input type="text" id="day" placeholder="Enter Date"><br><br><br>
-                    
-                    <label for="Month">Month:</label><br>
-                    <input type="text" id="Month"  placeholder="Enter Month"><br><br><br>
-                    
-                    <label for="Year">Year:</label><br>
-                    <input type="text" id="year"  placeholder="Enter Year"><br><br><br>
-                   
+
+            <form>
+                <div class="form">
+                    <div class="data">
+                            <p id="output"></p>
+                        <label>Enter Your first Name:</label><br>
+                        <input type="text" class="form-control" id="name" placeholder="Enter" required><br><br>
+                        <label>Year:</label><br>
+                        <input type="number" class="form-control" id="year" placeholder="Enter the year."><br><br>
+                        <label>Month:</label><br>
+                        <input type="number" class="form-control" id="month" placeholder="Enter the month" required min="1"
+                            max="12"><br><br>
+    
+                        <label>Day:</label><br>
+                        <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1"
+                            max="31">
+                    </div>
                     <div class="gender">
-                        <label>Gender</label><br>
+                        <label>Gender:</label><br>
                         <input type="radio" name="gender" id="male" value="male" checked> Male
                         <input type="radio" name="gender" id="female" value="female"> Female
-                    </div><br>
-                    <br><br>
-
-                    <button><a onclick="submit()" class="btn btn-outline-info btn-lg">Submit</a></button>
-
-                    <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
-
-
-                    <p id="output"></p>
-                </form>
-            
+                    </div>
+                </div>
+                <button id="submit"class="btn btn-primary" onclick="submission()" type="submit">Submit</button>
                 
-
-            </div>
+                <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+                
+            </form>
         </div>
-    <script src="main.js"></script>
+     <script src="./main.js"></script>
+      <footer>
+           <em>All rigths Reserved &copy;2021 Rodger Philip </em> 
+        </footer> 
+    </body>
 
     </body>
 </html>

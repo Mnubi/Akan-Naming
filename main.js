@@ -1,5 +1,5 @@
 //possible variables for birth date corresponds with day of the week
-var submit = function(){
+var submission = function(){
     var daysOfTheWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
@@ -41,17 +41,22 @@ var submit = function(){
 
      if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
         output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
-     }
+        alert("Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results])
+    }
 
      else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
           output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
+        alert("Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results])
         }
+
 
      if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
          output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
+        alert("Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results])
         }
      else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
 
     output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
     }
+
 };
