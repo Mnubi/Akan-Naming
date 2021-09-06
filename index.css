@@ -5,6 +5,7 @@ body {
 }
 .Navigation {
     color: #F3F6FB;
+    background-image: url(Images/Africa.jpg);
 }
 ul{
     display: flex;
