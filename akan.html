@@ -18,24 +18,37 @@
             <div class="data">
                 <form>
                     <label for="fname">Full Name:</label><br>
-                    <input type="text" id="fname" name="fname" value=""><br><br><br>
+                    <input type="text" id="name" placeholder="Enter Full Name"><br><br><br>
+                    
                     <label for="Day">Day:</label><br>
-                    <input type="number/text" id="Day" name="Day" value=""><br><br><br>
+                    <input type="text" id="day" placeholder="Enter Date"><br><br><br>
+                    
                     <label for="Month">Month:</label><br>
-                    <input type="text" id="Month" name="Month" value=""><br><br><br>
+                    <input type="text" id="Month"  placeholder="Enter Month"><br><br><br>
+                    
                     <label for="Year">Year:</label><br>
-                    <input type="text" id="Year" name="Year" value=""><br><br><br>
-                    <label for="Month">Gender:</label><br>
-                    <input type="radio" id="male" name="Gender" value="male">
-                    <label for="male">Male</label><br>
-                    <input type="radio" id="female" name="Gender" value="female">
-                    <label for="male">Female</label><br>
+                    <input type="text" id="year"  placeholder="Enter Year"><br><br><br>
+                   
+                    <div class="gender">
+                        <label>Gender</label><br>
+                        <input type="radio" name="gender" id="male" value="male" checked> Male
+                        <input type="radio" name="gender" id="female" value="female"> Female
+                    </div><br>
                     <br><br>
-                    <input type="submit">
-                  </form>
+
+                    <button><a onclick="submit()" class="btn btn-outline-info btn-lg">Submit</a></button>
+
+                    <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+
+
+                    <p id="output"></p>
+                </form>
+            
+                
 
             </div>
         </div>
-        
+    <script src="main.js"></script>
+
     </body>
 </html>

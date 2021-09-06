@@ -1,6 +1,19 @@
 body{
     background-color: #F3F6FB;
 }
+.Navigation {
+    color: #F3F6FB;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0px;
+    padding: 6em;
+    overflow: hidden;
+    background-image: url("/Images/Africa.jpg");
+}
 .fill> .data{
     background-color: grey;
     padding: 50px;

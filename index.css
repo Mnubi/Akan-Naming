@@ -2,15 +2,22 @@ body {
     background-color: #F3F6FB;
     font-size: 25px;
 }
+.Navigation {
+    color: #F3F6FB;
+}
 ul{
     display: flex;
     flex-direction: row;
-    justify-content:left;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 0px;
     padding: 6em;
     overflow: hidden;
-    background-image: url(/Images/Africa.jpg);
+    background-image: url("/Images/Africa.jpg");
+}
+
+ul li:hover{
+    color: #F3F6FB;
 }
 .container img{
     height: 370px;
@@ -21,4 +28,10 @@ ul{
 .container p{
     width: 60%;
     float: right;
+}
+footer{height: 100px;
+    margin-top: 170px;
+    background-color: gray;
+    color: black;
+    text-align: center;
 }

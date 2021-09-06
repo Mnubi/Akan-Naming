@@ -11,10 +11,11 @@ var submit = function(){
     var name =(document.getElementById("name").value);
 
     //creating a date objects to call the day stated
-    var date0fbirth = new Date(year + "/" + month + "/" + day);
+    var date0fbirth = new Date(day + "/" + month + "/" + year);
     var results = date0fbirth.getDay();
 
     // this will choose the option available from the radio button
+
     var male = document.getElementById("male")
     var female = document.getElementById("female")
 
@@ -43,14 +44,14 @@ var submit = function(){
      }
 
      else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-          output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
+          output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
         }
 
      if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-         output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
+         output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
         }
      else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
 
-    output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
+    output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
     }
 };
