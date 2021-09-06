@@ -28,11 +28,16 @@ ul{
 }
 .fill {
     background-color: grey;
+    font-size: 20px;
     padding: 50px;
     margin: 100px;
     height: 400px;
     width: 400px;
     border-radius: 5px;
+}
+input {
+    
+    text-align: left;
 }
 label {
     justify-content: left;
@@ -40,4 +45,14 @@ label {
     line-height: 10px;
     margin-bottom: 10px;
 }
-  
+footer{
+    font-size: 20px;
+    height: 30px;
+    margin-top: 170px;
+    background-color: gray;
+    color: black;
+    
+}
+.foot > footer{
+    text-align: center;
+}

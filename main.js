@@ -11,7 +11,7 @@ var submission = function(){
     var name =(document.getElementById("name").value);
 
     //creating a date objects to call the day stated
-    var date0fbirth = new Date(day + "/" + month + "/" + year);
+    var date0fbirth = new Date(year + "/" + month + "/" + day);
     var results = date0fbirth.getDay();
 
     // this will choose the option available from the radio button
@@ -39,22 +39,22 @@ var submission = function(){
         output.innerHTML = "Hello! " + name + " please enter a valid date! "
         }
 
-     if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
+     if(male.checked && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
         output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
         alert("Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results])
     }
 
-     else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
+     else if(female.checked && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
           output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
         alert("Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results])
         }
 
 
-     if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
+     if(male.checked && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
          output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
         alert("Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results])
         }
-     else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
+     else if(female.checked && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
 
     output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
     }
