@@ -22,23 +22,10 @@ var submission = function(){
     //output will print outcome variables to html
     var output = document.getElementById("output");
 
-    if (month =="" && year =="" && day =="" && name=="") {
-        alert("Please Enter date correctly");
-        return false;
-    }
     
-    if (year < 1900) {
-        output.innerHTML = "Hello! " + name + " please enter a valid year! "
-        }
-      
-        else if ((month < 1) || (month >12)) {
-        output.innerHTML = "Hello! " + name + " please enter a valid month! "
-        }
-      
-        else if (day < 0 || day > 31) {
-        output.innerHTML = "Hello! " + name + " please enter a valid date! "
-        }
-
+    //calculation of input
+    //
+   
      if(male.checked && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
         output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
         alert("Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results])
@@ -47,16 +34,7 @@ var submission = function(){
      else if(female.checked && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
           output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
         alert("Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results])
-        }
-
-
-     if(male.checked && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
-         output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
-        alert("Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results])
-        }
-     else if(female.checked && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
-
-    output.innerHTML = "Hello! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
     }
+
 
 };

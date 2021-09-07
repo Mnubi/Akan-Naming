@@ -26,6 +26,10 @@ ul li{
     font-size: 35px;
     font-weight: 900;
 }
+.Navigation ul li a:hover{
+    background-color: #dd130c;
+    
+}
 
 .container img{
     height: 370px;
@@ -42,7 +46,7 @@ footer{
     height: 30px;
     background-color: gray;
     color: black;
-    margin-top: 20em;
+    margin-top: 25em;
     
 }
 .foot > footer{
